@@ -24,6 +24,7 @@ public class GwCustomerMsApplication {
 		SpringApplication.run(GwCustomerMsApplication.class, args);
 	}
 
+	// TODO to add mocks
 	@Bean
 	CommandLineRunner start(CustomerRepository customerRepository) {
 		return args -> {
